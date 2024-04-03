@@ -18,17 +18,22 @@ const Navbar = ({ className }) => {
           <ul>
             <li>
               <NavLink to='/wintr' className={handleActiveLink}>
-                WINTR
+                SCADA
               </NavLink>
             </li>
             <li>
-              <NavLink to='/contatti' className={handleActiveLink}>
-                CONTATTI
+              <NavLink to='/progetti' className={handleActiveLink}>
+                PROGETTI
               </NavLink>
             </li>
             <li>
               <NavLink to='/news' className={handleActiveLink}>
                 NEWS
+              </NavLink>
+            </li>
+            <li>
+              <NavLink to='/contatti' className={handleActiveLink}>
+                CONTATTI
               </NavLink>
             </li>
           </ul>
