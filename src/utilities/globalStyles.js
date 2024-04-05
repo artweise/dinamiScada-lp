@@ -27,6 +27,7 @@ export const GlobalStyle = createGlobalStyle`
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-size: ${SPACING[3]}
+    overflow-x: hidden;
   }
 
   a {
