@@ -37,9 +37,11 @@ export const StyledNavbar = styled(FlexContainer)`
       a {
         &.current {
           border-bottom: 2px solid #544a49;
+          padding-bottom: 4px;
         }
         &:hover {
           border-bottom: 2px solid #544a49;
+          padding-bottom: 4px;
           transition: all 0.1s ease-out;
         }
       }
