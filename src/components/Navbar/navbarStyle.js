@@ -7,11 +7,9 @@ export const NavbarWrapper = styled.div`
 `;
 
 export const StyledNavbar = styled(FlexContainer)`
-  height: 96px;
+  height: ${SPACING[5.5]};
   width: 100%;
   justify-content: space-between;
-  //   background-color: #544a4a;
-  background-color: transparent;
   color: #b48d28;
   align-items: center;
   padding: 0 4rem;
@@ -21,14 +19,11 @@ export const StyledNavbar = styled(FlexContainer)`
     text-decoration: none;
     height: 100%;
     display: flex;
-    //   align-items: center;
-    align-items: stretch;
-    padding: 0.25rem;
   }
 
   img {
-    padding: 6px;
-    height: 96px;
+    padding: ${SPACING[1]} 0;
+    height: ${SPACING[5.5]};
   }
 
   ul {
@@ -42,9 +37,11 @@ export const StyledNavbar = styled(FlexContainer)`
       a {
         &.current {
           border-bottom: 2px solid #544a49;
+          padding-bottom: 4px;
         }
         &:hover {
           border-bottom: 2px solid #544a49;
+          padding-bottom: 4px;
           transition: all 0.1s ease-out;
         }
       }

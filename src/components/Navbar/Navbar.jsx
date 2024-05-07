@@ -13,11 +13,11 @@ const Navbar = ({ className }) => {
         {/* Make sure to pass the className prop to this wrapper from any parent component where the Navbar is used. */}
         <StyledNavbar>
           <Link to='/'>
-            <img src='/photo_13_2024-04-01_12-20-03.jpg' alt='' />
+            <img src='/photo_2024-04-04_16-00-06.jpg' alt='' />
           </Link>
           <ul>
             <li>
-              <NavLink to='/wintr' className={handleActiveLink}>
+              <NavLink to='/scada' className={handleActiveLink}>
                 SCADA
               </NavLink>
             </li>
